@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!--Bootstrap Link Starts-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Bootstrap Link Ends-->
+    <!--Bootstrap cdn starts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+        <!--Bootstrap cdn ends-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+         
+    <title>Generosity Grove/Impact Page</title>
+   
+</head>
+<body>
+     <!-------------------------------HEADER STARTS----------------------->
+   <!-- Search Modal -->
+   <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalLabel">Search</h5>
+                <button type="button" class="btn-close btn" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="text" class="form-control" placeholder="Type your search query here...">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Search Modal Ends -->
+<!---Navbar Overlay Starts-->
+        <nav class="navbar navbar-expand-lg page-nav pe-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/GENEROSITY.png" alt="Logo" class="logo"></a>
+        <div class="d-flex ms-auto navbar-buttons">
+            <button class="btn btn-custom me-2" data-bs-toggle="modal" data-bs-target="#searchModal">
+                <i class="bi bi-search"></i> Search
+            </button>
+            <button class="btn btn-custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">Menu</button>
+        </div>
+    </div>
+</nav>
+<!---Navbar Overlay Ends-->
+<!---Offcanvas Starts-->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="navbar-nav">
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="causes.html">Causes</a>
+            </li>
+            <li class="nav-item dropdown border-bottom border-dark p-1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Events
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li class="border-bottom border-dark p-2"><a class="dropdown-item" href="events.html"> Educators Workshop</a></li>
+                    <li class="border-bottom border-dark p-2"><a class="dropdown-item" href="event2.html">Art Exhibition</a></li>
+                    <li class="border-bottom border-dark p-2 "><a class="dropdown-item" href="event3.html">Joy Fest</a></li>
+                </ul>
+            </li>
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="impact.html">Impact Stories</a>
+            </li>
+            
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+ <!---Offcanvas Ends-->
+ <!-------------------------------HEADER ENDS----------------------->
+ <div class="impact-list py-5">
+    <h1 class="section-heading" >Our Achievements</h1>
+    
+    <div class="row d-flex justify-content-center gap-3 mt-5">
+        <div class="col-lg-3 ">
+            <i class="bi bi-book " ></i>
+            <h3 class="text-center">Education Access</h3>
+            <p class="text-center">At Generosity Grove, we believe that education is the cornerstone of empowerment. By covering school fees, providing textbooks, uniforms, and essential supplies, we ensure that children have access to quality educationWe envision a world where every child, regardless of their background, can unlock their potential through learning</p>
+        </div>
+        <div class="col-lg-3">
+            <i class="bi bi-graph-up-arrow"></i>
+            <h3 class="text-center">Holistic Development</h3>
+            <p class="text-center">Our commitment extends beyond financial assistance. We offer mentoring, life skills training, and leadership programs. These holistic approaches nurture not only academic growth but also emotional resilience, social adaptability, and personal development.</p>
+        </div>
+        <div class="col-lg-3">
+            <i class="bi bi-broadcast-pin"></i>
+            <h3>Community Empowerment</h3>
+            <p>Generosity Grove collaborates closely with local leaders and organizations. We recognize that sustainable change happens when communities are actively involved. Together, we address broader issues such as poverty, health, and disaster relief.</p>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center gap-3 mt-5">
+        <div class="col-lg-3">
+            <i class="bi bi-megaphone"></i>
+            <h3  class="text-center">Advocacy</h3>
+            <p  class="text-center">Through our advocacy efforts, we raise awareness about the importance of education and equal opportunities. We collaborate with communities, policymakers, and other stakeholders to advocate for educational equity.</p>
+        </div>
+        <div class="col-lg-3">
+            <i class="bi bi-people"></i>
+            <h3  class="text-center">Coordination</h3>
+            <p  class="text-center">Our coordination program focuses on streamlining efforts across various educational institutions. We work closely with schools, colleges, and universities to create a seamless process for scholarship applications, disbursements, and student support</p>
+        </div>
+        <div class="col-lg-3">
+            <i class="bi bi-lightbulb"></i> 
+            <h3  class="text-center">Capacity Building</h3>
+            <p  class="text-center">We invest in capacity building for both students and educators. This includes workshops, training sessions, and mentorship programs to enhance skills, knowledge, and leadership abilities.</p>
+        </div>
+    </div>
+ </div>
+ <!---Impact Stories start-->
+    <section class="impacts py-5 ">
+        <h1 class="section-title text-center">Impact Stories</h1>
+        
+    <div id="carouselExampleIndicators" class="carousel" >
+      
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="impact-container-split">
+                    <div class="impact-left">
+                        <img src="images/imp1.jpg" alt="Image">
+                    </div>
+                    <div class="impact-right">
+                        <div class="content">
+                            <h2 >Alice's  Journey to Medical School</h2>
+                            <p >Alice Makori always dreamed of becoming a doctor, but financial constraints seemed to put her aspirations out of reach. With the help of a Generosity Grove scholarship, she enrolled in a prestigious medical school. Her dedication and hard work paid off as she excelled in her studies, participated in groundbreaking research, and volunteered in underserved communities. Today, Alice is a compassionate physician, working to provide quality healthcare to those in need, driven by the support she received from Generosity Grove.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="overlay-box"></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="impact-container-split">
+                    <div class="impact-left">
+                        <img src="images/imp2-min.jpg" alt="Image">
+                    </div>
+                    <div class="impact-right">
+                        <div class="content">
+                            <h2>Najma's  Path to Engineering Success</h2>
+                            <p>Najma Zakir grew up fascinated by how things worked, but she faced numerous obstacles as a young woman pursuing engineering. The scholarship from Generosity Grove gave her the opportunity to attend a top engineering university. There, she thrived, becoming a role model for other women in STEM. After graduating with honors, she joined a leading tech company and now leads innovative projects that are changing the world. Najma attributes her success to the unwavering support of Generosity Grove.</p>
+                        </div>
+                    </div>
+                    <div class="overlay-box"></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="impact-container-split">
+                    <div class="impact-left">
+                        <img src="images/imp3-min.jpg" alt="Image">
+                    </div>
+                    <div class="impact-right">
+                        <div class="content">
+                            <h2>Mei's  Artistic Ambitions Realized</h2>
+                            <p>Art was Mei Zhao's passion, but she lacked the resources to pursue formal training. Generosity Grove saw her potential and awarded her a scholarship to a renowned art school. Surrounded by creativity and mentorship, Mei honed her skills and developed her unique style. Her work has been featured in international exhibitions, and she has become a celebrated artist. Mei's journey from a small town to the global art scene is a testament to the transformative power of Generosity Grove's support..</p>
+                        </div>
+                    </div>
+                    <div class="overlay-box"></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="impact-container-split">
+                    <div class="impact-left">
+                        <img src="images/imp8.jpg" alt="Image">
+                    </div>
+                    <div class="impact-right">
+                        <div class="content">
+                            <h2>Andrew's Journey to Entrepreneurship</h2>
+                            <p>Andrew Gitau's always had a knack for business ideas, but he struggled to find the means to bring them to life. Generosity Grove's scholarship allowed him to study business administration at a top university. He used his education to launch a successful startup that focuses on sustainable solutions for everyday problems. Andrew's company has grown rapidly, creating jobs and making a positive impact on the environment. He credits his success to the foundation laid by Generosity Grove's support.</p>
+                        </div>
+                    </div>
+                    <div class="overlay-box"></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="impact-container-split">
+                    <div class="impact-left">
+                        <img src="images/team3.jpg" alt="Image">
+                    </div>
+                    <div class="impact-right">
+                        <div class="content">
+                            <h2>James'  Transformation through Music</h2>
+                            <p>James White discovered his love for music in high school, but without the means to pursue it further, his dreams seemed distant. The scholarship from Generosity Grove enabled him to attend a prestigious music academy. There, he refined his talents, collaborated with renowned musicians, and performed at major venues. Today, James is a successful musician and composer, touching lives with his music and mentoring young artists. His transformation from a hopeful teenager to a celebrated musician was made possible by Generosity Grove.</p>
+                        </div>
+                    </div>
+                    <div class="overlay-box"></div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+ <!---Impact Stories Ends-->
+ <!--Footer-->
+ <section class="home-footer cyan">
+    <h3 class="mt-5 pb-5 ms-4 ">Generosity Grove</h3>
+    <div class="footer-container">
+        <div class="row ">
+            <div class="col-lg-6 border border-dark ">
+                <div class="row">
+                    <div class="col-lg-4 ms-4">
+                        <p>+254710293848</p>
+                        <p>info@generositygrove.com</p>
+                    </div>
+                    <div class="col-lg-4 ms-4">
+                        <p>Biashara House, Kimathi Street</p>
+                        <p>Nairobi Kenya</p>
+                    </div>
+                   
+                </div>
+              
+            </div>
+            <div class="col-lg-6 border border-dark d-flex flex-column link-column ">
+                <h5>Quick Links</h5>
+                <a href="index.html"><span>&#10095;</span> Home</a>
+                <a href="about.html"><span>&#10095;</span> About</a>
+                <a href="services.html"> <span>&#10095;</span> Services</a>
+                <a href="causes.html"> <span>&#10095;</span> Causes</a>
+                <a href="blog.html"> <span>&#10095;</span> Blog</a>
+                <a href="impact.html"><span>&#10095;</span> Impact Stories</a>
+                <a href="contact.html"><span>&#10095;</span> Contact</a>
+            </div>
+        </div>
+    </div>
+    <div class="ft-credit d-flex justify-content-between" >
+        <p class="ms-4">&copy; Copyright Generosity Grove</p> 
+        <p class="me-5"> <a href="https://github.com/AminaLwamba"> Made by Amina Luamba </a></p> 
+      </div>
+  </section>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.com/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generosity Grove/Causes Page</title>
+    <link rel="stylesheet" href="style.css">
+        <!--Bootstrap Link Starts-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!--Bootstrap Link Ends-->
+        <!--Bootstrap cdn starts-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+            <!--Bootstrap cdn ends-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+         <!-------------------------------HEADER STARTS----------------------->
+   <!-- Search Modal -->
+   <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalLabel">Search</h5>
+                <button type="button" class="btn-close btn" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="text" class="form-control" placeholder="Type your search query here...">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Search Modal Ends -->
+<!---Navbar Overlay Starts-->
+        <nav class="navbar navbar-expand-lg  pe-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/GENEROSITY.png" alt="Logo" class="logo"></a>
+        <div class="d-flex ms-auto navbar-buttons">
+            <button class="btn btn-custom me-2" data-bs-toggle="modal" data-bs-target="#searchModal">
+                <i class="bi bi-search"></i> Search
+            </button>
+            <button class="btn btn-custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">Menu</button>
+        </div>
+    </div>
+</nav>
+<!---Navbar Overlay Ends-->
+<!---Offcanvas Starts-->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="navbar-nav">
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="causes.html">Causes</a>
+            </li>
+            <li class="nav-item dropdown border-bottom border-dark p-1">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Events
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li class="border-bottom border-dark p-2"><a class="dropdown-item" href="events.html"> Educators Workshop</a></li>
+                    <li class="border-bottom border-dark p-2"><a class="dropdown-item" href="event2.html">Art Exhibition</a></li>
+                    <li class="border-bottom border-dark p-2 "><a class="dropdown-item" href="event3.html">Joy Fest</a></li>
+                </ul>
+            </li>
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="impact.html">Impact Stories</a>
+            </li>
+            <li class="nav-item border-bottom border-dark p-1">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+ <!---Offcanvas Ends-->
+ <!-------------------------------HEADER ENDS----------------------->
+     <section class="causes-page">
+     <div class="cause-header ">
+        <div class="row">
+            <div class="col-lg-3">
+                <img src="images/cause2.jpg">
+            </div>
+            <div class="col-lg-6 p-5 ">
+                <h1 class="ms-5 Services-Sec">Our Latest Causes</h1>
+                <p class="ms-5">At Generosity Grove, we're continuously expanding our reach to address pressing community needs. Our latest causes focus on a diverse range of initiatives, from education and health to environmental conservation and women's empowerment.</p>
+            </div>
+        </div>
+     </div>
+     <div class="causes-main pt-5 pb-3 mt-5">
+      <div class="row d-flex justify-content-end mt-5 gap-5">
+        <div class="col-lg-4 p-0">
+            <img src="images/cause1.jpg">
+            <div class="cause-details ">
+                <h4>Clean Water In Mandera</h4>
+                <p>Our clean water initiative focuses on digging wells, installing water purification systems, and educating the community on water conservation practices.</p>
+                <div class="row gap-5">
+                    <div class="col-lg-3 fw-bold">Donated:30,203</div>
+                    <div class="col-lg-3 fw-bold"> Goal:36,897</div>
+                </div>
+                <a  type="button"  data-toggle="modal" data-target="#donationModal" class="btn home-container-button mt-3"> Donate</a>
+            </div>
+        </div>
+        <div class="col-lg-4 p-0">
+            <img src="images/cause2.jpg">
+            <div class="cause-details ">
+                <h4>Nairobi River Cleaning</h4>
+                <p>By restoring the Nairobi River, we aim to enhance biodiversity, improve water quality, and create a healthier environment for all. Join us in our mission to protect and preserve our natural resources for future generations.</p>
+                <div class="row gap-5">
+                    <div class="col-lg-3 fw-bold">Donated:30,203</div>
+                    <div class="col-lg-3 fw-bold"> Goal:36,897</div>
+                </div>
+                <a  type="button"  data-toggle="modal" data-target="#donationModal" class="btn home-container-button mt-3"> Donate</a>
+            </div>
+        </div>
+      </div>
+      <div class="row mt-5 gap-5 ">
+        <div class="col-lg-4 p-0">
+            <img src="images/cause3.jpg">
+            <div class="cause-details ">
+                <h4>Gender Equality in Education</h4>
+                <p> This initiative aims to break down barriers that prevent girls from attending school and achieving their full potential. We provide scholarships, supply educational materials, and work with schools to create safe and inclusive learning environments.</p>
+                <div class="row gap-5">
+                    <div class="col-lg-3 fw-bold">Donated:30,203</div>
+                    <div class="col-lg-3 fw-bold"> Goal:36,897</div>
+                </div>
+                <a  type="button"  data-toggle="modal" data-target="#donationModal" class="btn home-container-button mt-3"> Donate</a>
+            </div>
+        </div>
+        <div class="col-lg-4 p-0">
+            <img src="images/cause4.jpg">
+            <div class="cause-details ">
+                <h4>Children's Health</h4>
+                <p> Our Children's Health initiative focuses on providing essential healthcare services, vaccinations, nutrition programs, and health education to ensure that every child has the opportunity to grow up healthy and strong</p>
+                <div class="row gap-5">
+                    <div class="col-lg-3 fw-bold">Donated:30,203</div>
+                    <div class="col-lg-3 fw-bold"> Goal:36,897</div>
+                </div>
+                <a  type="button"  data-toggle="modal" data-target="#donationModal" class="btn home-container-button mt-3"> Donate</a>
+            </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-end mt-5 gap-5">
+        <div class="col-lg-4 p-0">
+            <img src="images/cause5.jpg">
+            <div class="cause-details ">
+                <h4>Fight Against HIV/Aids</h4>
+                <p> Our programs include free testing and counseling services, distribution of antiretroviral medications, and community outreach initiatives to reduce stigma and promote understanding</p>
+                <div class="row gap-5">
+                    <div class="col-lg-3 fw-bold">Donated:30,203</div>
+                    <div class="col-lg-3 fw-bold"> Goal:36,897</div>
+                </div>
+                <a  type="button"  data-toggle="modal" data-target="#donationModal" class="btn home-container-button mt-3"> Donate</a>
+            </div>
+        </div>
+        <div class="col-lg-4 p-0">
+            <img src="images/GR1.jpg">
+            <div class="cause-details ">
+                <h4>Brighter Children's Home Provision</h4>
+                <p>  Our efforts include building and maintaining children's homes, ensuring they have access to nutritious meals, healthcare, education, and emotional support</p>
+                <div class="row gap-5">
+                    <div class="col-lg-3 fw-bold">Donated:30,203</div>
+                    <div class="col-lg-3 fw-bold"> Goal:36,897</div>
+                </div>
+                <a  type="button"  data-toggle="modal" data-target="#donationModal" class="btn home-container-button mt-3"> Donate</a>
+            </div>
+        </div>
+      </div>
+     </div>
+     <div class="cta-1 p-5 mt-5 mb-5">
+        <h1>Get Involved: Volunteer Today</h1>
+        <p class="me-5">Your involvement can change lives. Whether you choose to volunteer your time or make a financial contribution, your support is crucial in helping us achieve our mission at Generosity Grove</p>
+        <div class=" row cta-buttons">
+            <div class="col-lg-4">
+                <a href="contact.html" class="btn home-container-button mt-3"> Volunteer</a>  
+            </div>
+           
+        </div>
+     </div>
+    </section>
+    <div class="container mt-5">
+       
+      
+        <div class="modal fade" id="donationModal" tabindex="-1" role="dialog" aria-labelledby="donationModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="donationModalLabel">Donate</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="donationAmount">Select Donation Amount:</label>
+                    <div class="btn-group btn-group-toggle d-flex flex-wrap" data-toggle="buttons">
+                      <label class="btn btn-outline-dark">
+                        <input type="radio" name="options" id="option1" autocomplete="off" value="5"> $5
+                      </label>
+                      <label class="btn btn-outline-dark ml-2">
+                        <input type="radio" name="options" id="option2" autocomplete="off" value="10"> $10
+                      </label>
+                      <label class="btn btn-outline-dark ml-2">
+                        <input type="radio" name="options" id="option3" autocomplete="off" value="50"> $50
+                      </label>
+                      <label class="btn btn-outline-dark ml-2">
+                        <input type="radio" name="options" id="option4" autocomplete="off" value="100"> $100
+                      </label>
+                      <label class="btn btn-outline-dark ml-2">
+                        <input type="radio" name="options" id="option5" autocomplete="off" value="custom"> Custom
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="customAmount">Enter Custom Amount:</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">$</span>
+                      </div>
+                      <input type="number" class="form-control" id="customAmount" placeholder="Enter amount">
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-success">Donate</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <section class="home-footer">
+        <h3 class="mt-5 pb-5 ms-4">Generosity Grove</h3>
+        <div class="footer-container">
+            <div class="row ">
+                <div class="col-lg-6 border border-dark ">
+                    <div class="row">
+                        <div class="col-lg-4 ms-4">
+                            <p>+254710293848</p>
+                            <p>info@generositygrove.com</p>
+                        </div>
+                        <div class="col-lg-4 ms-4">
+                            <p>Biashara House, Kimathi Street</p>
+                            <p>Nairobi Kenya</p>
+                        </div>
+                       
+                    </div>
+                  
+                </div>
+                <div class="col-lg-6 border border-dark d-flex flex-column link-column ">
+                    <h5>Quick Links</h5>
+                    <a href="index.html"><span>&#10095;</span> Home</a>
+                    <a href="about.html"><span>&#10095;</span> About</a>
+                    <a href="services.html"> <span>&#10095;</span> Services</a>
+                    <a href="causes.html"> <span>&#10095;</span> Causes</a>
+                    <a href="blog.html"> <span>&#10095;</span> Blog</a>
+                    <a href="impact.html"><span>&#10095;</span> Impact Stories</a>
+                    <a href="contact.html"><span>&#10095;</span> Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="ft-credit d-flex justify-content-between" >
+            <p class="ms-4">&copy; Copyright Generosity Grove</p> 
+            <p class="me-5"> <a href="https://github.com/AminaLwamba"> Made by Amina Luamba </a></p> 
+          </div>
+      </section>
+    
+        
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <script src="script.js"></script>
+</body>
+</html>
